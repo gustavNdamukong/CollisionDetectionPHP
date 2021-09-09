@@ -7,12 +7,12 @@ trait RectangleTrait {
 	protected $height;
 
 
-  	public function setWidth($width)
+  	public function setWidth(int $width)
 	{
 		$this->width = $width;
 	}
 
-	public function getWidth()
+	public function getWidth() : int
 	{
 		return $this->width;
 	}

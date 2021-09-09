@@ -21,7 +21,7 @@ class Setup
 		}
 	}
 
-	function setShape1($shape1)
+	/*function setShape1($shape1)
 	{
 		$this->shape1 = $shape1;
 	}
@@ -30,7 +30,7 @@ class Setup
 	function setShape2($shape2)
 	{
 		$this->shape2 = $shape2;
-	}
+	}*/
 
 	public function showShapeTypes()
 	{
@@ -41,12 +41,6 @@ class Setup
 
 
 
-
-
-	public function terminateMove()
-	{
-		$this->endMove = true;
-	}
 
     public function readline()
 	{

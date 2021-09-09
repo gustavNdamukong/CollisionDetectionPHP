@@ -90,7 +90,7 @@ if ($type == 'Circle')
 	$radius = $captured[2];
 	$circle2 = new Circle($xCoord, $yCoord, $radius);
 
-	//start moving rectangle 2 randomly in a loop, checking for a collision with rectangle 1 after every move.
+	//start moving circle 2 randomly in a loop, checking for a collision with circle 1 after every move.
 	//exit when collision is detected.
 	echo $setup->coordsCheck($circle1, $circle2);
 	while ($setup->collision($circle1, $circle2) == false)
